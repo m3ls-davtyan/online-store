@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <title>Online Store</title>
+    <title>Online Shop</title>
   </head>
   <body>
     <div class="container">
@@ -29,7 +29,7 @@
         </select>
         
         <button type="button" class="btn btn-success col-md-2 d-none d-md-block">
-  Whishlist <span class="badge badge-dark">11</span>
+  Whishlist <span class="badge badge-dark">4</span>
 </button>
       </nav>
      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -49,7 +49,7 @@
   </button>
   <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
     <a class="dropdown-item" href="#" data-toggle="modal" data-target="#exampleModal">Login</a>
-    <a class="dropdown-item" href="#" data-toggle="modal" data-target="#registermodal">Register</a>
+    <a class="dropdown-item" href="#">Register</a>
     <a class="dropdown-item" href="#">My orders</a>
     <a class="dropdown-item" href="#">Account Settings</a> 
       </div>
@@ -101,6 +101,7 @@
       </li>
     </ul>
       
+      
     <ul class="navbar-nav mr-auto">
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle text-success mx-xl-5 mx-lg-5" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -126,164 +127,158 @@
       </li>
     </ul>
   </div>
+    
 </nav>
-
-<div class=" mx-auto w-75 w-md-50 d-none d-sm-block alert alert-success alert-dismissible fade show bg-success " role="alert">
-  <p class= "text-center" > You should check everybody </p>
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-    <span aria-hidden="true">&times;</span>
-  </button>
-</div>
-<div>
-	<div class="contenier">
-<div id="carouselExampleCaptions" class="carousel slide bg-dark d-none d-sm-block" data-ride="carousel">
-      <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    <div class="row">
+<nav aria-label="breadcrumb" class="col-12 col-md-7 col-lg-8">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <li class="breadcrumb-item"><a href="index.hyml">categoria</a></li>
+    <li class="breadcrumb-item"><a href="shop.html">pc</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Dell G3 15</li>
   </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="row justify-content-center p-3">
-            <div class="col-3">
-              <img src="https://www.pngmart.com/files/6/Canon-PNG-Pic.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="col-3">
-              <div class="carousel-caption d-none d-sm-block d-flex flex-column">
-                <h5 class="d-none d-xl-block">First slide label <br>
-                canon e605h</h5>
-                <h5 class="d-none d-md-block">go and</h5>
-                <h5>buy now</h5>
-                <button class="btn btn-success">check</button>
-              </div>
-            </div>  
-          </div>  
-        </div>
-        <div class="carousel-item ">
-          <div class="row justify-content-center p-3">
-            <div class="col-3">
-              <img src="https://www.pngmart.com/files/6/Canon-PNG-Pic.png" class="d-block w-100" >
-            </div>
-            <div class="col-3">
-              <div class="carousel-caption d-none d-sm-block">
-               <h5 class="d-none d-xl-block">second label <br>
-                canon e605h</h5>
-                <h5 class="d-none d-md-block">go and</h5>
-                <h5>buy now</h5>
-                <button class="btn btn-success">check</button>
-              </div>
-            </div>  
-          </div>  
-        </div>
-        <div class="carousel-item">
-          <div class="row justify-content-center p-3">
-            <div class="col-3">
-              <img src="https://www.pngmart.com/files/6/Canon-PNG-Pic.png" class="d-block w-100" >
-            </div>
-            <div class="col-3">
-              <div class="carousel-caption d-none d-sm-block">
-                <h5 class="d-none d-xl-block">third slide label <br>
-                canon e605h</h5>
-                <h5 class="d-none d-md-block">go and</h5>
-                <h5>buy now</h5>
-                <button class="btn btn-success">check</button>
-              </div>
-            </div>  
-          </div>  
-     </div>
-
-     <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-      </div>  
+</nav>
+      <h6 class="ml-4 ml-md-1 mt-1 mt-md-2 mx-xl-4">sort by</h6>
+      <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+       <select title="Currency" class="custom-select" id="inputGroupSelect" aria-label="Example select with button addon">
+          <option selected>Low to High</option>
+          <option> High to Low</option>
+        </select>
+      </div>
     </div>
-   <div class="row justify-content-center  bg-success">
-        <h1 class="col-12  text-center">Select Product</h1>
-        
+    <div class="row">
+    <div class="col-6">
+        <div class="row">
+          <div class="col-4">
+            <div class="d-flex">
+          <a class="font-weight-bold ml-2 text-decoration-none " href="product.html" style="font-size:2rem">Dell </a>
+<a class="font-weight-bold ml-2 text-decoration-none d-none d-md-block " href="product.html" style="font-size:2rem">g3 </a>
+        </div>
+        <div class="d-none d-sm-block col-12 flex-column">
+            <img class=" img-fluid border" src="https://www.techpowerup.com/img/IehfjojbSi2BNuLM.jpg">
+            <img class=" img-fluid border" src="https://vicsenshop.b-cdn.net/wp-content/uploads/2020/01/Apple-MacBook-Pro-13-3-inch-128G-silver-space-gray-Light-and-convenient-Business-office-Notebook.jpg">
+            <img class=" img-fluid border" src="https://cdnblob.moshi.com/uploadedfiles/photo/v3/productImages/261/01.jpg">
+          <img class=" img-fluid border" src="https://macfinder.co.uk/wp-content/uploads/2019/12/img-MacBook-Pro-Retina-15-Inch-89320.jpg">
+          </div>
+        </div>
+          <div class="col-12 col-sm-8 my-auto">
+            <img class="img-fluid"  src="https://ae01.alicdn.com/kf/H45d89e4050704c6e9caafea658566b6al.jpg"></div>
+         
+
+        </div>
+      </div>
+    
+<div class="col-5 my-auto">
+  <p class="font-weight-bold ml-2" href="product.html" style="font-size:2rem">500$</p>
+  <div class="d-flex">
+    <p class="font-weight-bold mr-2 d-none d-sm-block" href="product.html">options</p>
+   <div class="custom-control custom-switch d-none d-sm-block">
+  <input type="checkbox" class="custom-control-input" id="customSwitch1">
+  <label class="custom-control-label " for="customSwitch1">carpet</label>
+</div>
+<div class="custom-control custom-switch d-none d-sm-block">
+  <input type="checkbox" class="custom-control-input" id="customSwitch2">
+  <label class="custom-control-label ml-2" for="customSwitch2">mouse</label>
+</div>
+</div>
+<div class="d-flex">
+   <p class="font-weight-bold mr-2 d-none d-sm-block" href="product.html">color</p>
+<div class="form-check d-none d-sm-block">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    red
+  </label>
+</div>
+<div class="form-check ml-2 d-none d-sm-block">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    silver
+  </label>
+</div>
+<div class="form-check ml-2 d-none d-sm-block">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    black
+  </label>
+</div>
+</div>
+<p class="d-none d-lg-block" >1. Height: 0.89" (22.7mm) | 2. Width: 14.96" (380mm) | 3. Depth: 10.16" (258mm) Starting at 5.57 lbs (2.53kg)*</p>
+  <hr class="d-none d-md-block" >
+  <p class=" d-none d-xl-block">
+   . 2-in-1 SD / MicroMedia card | 2. USB 2.0 | 3. Noble lock security slot | 4. Power/DC-in Jack | 5. Optional Thunderbolt™ 3* with Type-C™ | 6. HDMI 2.0 | 7. Gigabit Ethernet RJ-45 | 8. SuperSpeed USB 3.1 | 9. Headphone/Mic</p>
+  <button class="btn btn-primary"><a class="text-decoration-none text-white" href="cart.html">Add to cart</a></button>
+</div>
+</div>
+<div class="card" >
+  <ul class="list-group list-group-flush d-lg-none">
+    <li class="list-group-item d-block d-sm-none"><div class="d-flex">
+   <p class="font-weight-bold mr-2" href="product.html">color</p>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    red
+  </label>
+</div>
+<div class="form-check ml-2">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    silver
+  </label>
+</div>
+<div class="form-check ml-2">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    black
+  </label>
+</div>
+</div></li>
+    <li class="list-group-item d-block d-sm-none"><div class="d-flex">
+    <p class="font-weight-bold mr-2" href="product.html">options</p>
+   <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch3">
+  <label class="custom-control-label " for="customSwitch3">carpet</label>
+</div>
+<div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" id="customSwitch4">
+  <label class="custom-control-label ml-2" for="customSwitch4">mouse</label>
+</div>
+</div></li>
+    <li class="list-group-item">1. Height: 0.89" (22.7mm) | 2. Width: 14.96" (380mm) | 3. Depth: 10.16" (258mm) Starting at 5.57 lbs (2.53kg)*</li>
+    <li class="list-group-item d-lg-none"> . 2-in-1 SD / MicroMedia card | 2. USB 2.0 | 3. Noble lock security slot | 4. Power/DC-in Jack | 5. Optional Thunderbolt™ 3* with Type-C™ | 6. HDMI 2.0 | 7. Gigabit Ethernet RJ-45 | 8. SuperSpeed USB 3.1 | 9. Headphone/Mic</li>
+  </ul>
+</div>
+    <div class="row justify-content-around"style="background-color:#daf7f4">
+        <h1 class="col-12  text-center">You may also like</h1>
+<div class=" card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2"> 
+            <img src="https://www.prime.ae/wp-content/uploads/2018/10/A6-.png"  class="card-img-top">
+            <div class="card-body ">
+                <h5 class="card-title">A6 +</h5>
+                <h5 class="text-danger">200$<br><del class="text-info">170$</del></h5>
+                <a href="product.html" class="btn btn-success">BUY</a>
+            </div>
+        </div>
         <div class=" card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2"> 
             <img src="https://www.prime.ae/wp-content/uploads/2018/10/A6-.png"  class="card-img-top">
             <div class="card-body ">
                 <h5 class="card-title">A6 +</h5>
                 <h5 class="text-danger">200$<br><del class="text-info">170$</del></h5>
-                <a href="Product.html" class="btn btn-success">BUY</a>
+                <a href="product.html" class="btn btn-success">BUY</a>
             </div>
         </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2">
+<div class=" card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2"> 
             <img src="https://www.prime.ae/wp-content/uploads/2018/10/A6-.png"  class="card-img-top">
             <div class="card-body ">
                 <h5 class="card-title">A6 +</h5>
                 <h5 class="text-danger">200$<br><del class="text-info">170$</del></h5>
-                <a href="Product.html" class="btn btn-success">BUY</a>
+                <a href="product.html" class="btn btn-success">BUY</a>
             </div>
         </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2">
-            <img img="" src="https://www.prime.ae/wp-content/uploads/2018/10/A6-.png"  class="card-img-top">
-            <div class="card-body ">
-                <h5 class="card-title">A6 +</h5>
-                <h5 class="text-danger">200$<br><del class="text-info">170$</del></h5>
-                <a href="Product.html" class="btn btn-success">BUY</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2">
-            <img  src="https://www.prime.ae/wp-content/uploads/2018/10/A6-.png"  class="card-img-top">
-            <div class="card-body ">
-                <h5 class="card-title">A6 +</h5>
-                <h5 class="text-danger">200$<br><del class="text-info">170$</del></h5>
-                <a href="Product.html" class="btn btn-success">BUY</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2">
+        <div class=" card col-md-4 col-lg-2 col-sm-6 col-12 text-center p-2"> 
             <img src="https://www.prime.ae/wp-content/uploads/2018/10/A6-.png"  class="card-img-top">
             <div class="card-body ">
                 <h5 class="card-title">A6 +</h5>
                 <h5 class="text-danger">200$<br><del class="text-info">170$</del></h5>
-                <a href="Product.html" class="btn btn-success">BUY</a>
-            </div>
-        </div>
-    </div>
-  <div class=" row justify-content-center  bg-success " style="margin:0px:">
-        <h1 class="col-12  text-center mr-0 ">categoria</h1>
-        
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-6 text-center p-2">
-            <img  src="https://www.freeiconspng.com/uploads/mac-os-x-lion-icon-28.png"  class="card-img-top d-none d-sm-block">
-            <div class="card-body ">
-                
-                <a href="shop.html" class="btn btn-success">see more</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-6 text-center p-2">
-            <img  src="https://www.freeiconspng.com/uploads/mac-os-x-lion-icon-28.png"  class="card-img-top d-none d-sm-block">
-            <div class="card-body ">
-                <a href="shop.html" class="btn btn-success">see more</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-6 text-center p-2">
-            <img  src="https://www.freeiconspng.com/uploads/mac-os-x-lion-icon-28.png"  class="card-img-top d-none d-sm-block">
-            <div class="card-body ">
-                <a href="shop.html" class="btn btn-success">see more</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-6 text-center p-2">
-            <img  src="https://www.freeiconspng.com/uploads/mac-os-x-lion-icon-28.png"  class="card-img-top d-none d-sm-block">
-            <div class="card-body ">
-                <a href="shop.html" class="btn btn-success">see more</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-6 text-center p-2">
-            <img  src="https://www.freeiconspng.com/uploads/mac-os-x-lion-icon-28.png"  class="card-img-top d-none d-sm-block">
-            <div class="card-body ">
-                <a href="shop.html" class="btn btn-success">see more</a>
-            </div>
-        </div>
-        <div class="card col-md-4 col-lg-2 col-sm-6 col-6 text-center p-2">
-            <img  src="https://www.freeiconspng.com/uploads/mac-os-x-lion-icon-28.png"  class="card-img-top d-none d-sm-block">
-            <div class="card-body ">
-                <a href="shop.html" class="btn btn-success">see more</a>
+                <a href="product.html" class="btn btn-success">BUY</a>
             </div>
         </div>
     </div>
@@ -294,7 +289,8 @@
       <a class="text-center flex-fill py-3 px-lg-5 border bg-dark text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">shipping</a>
       <a class="text-center flex-fill py-3 px-lg-5 border bg-dark text-uppercase font-weight-bold text-secondary text-decoration-none" href="#">terms & conditions</a>
     </div>
-</div>
+
+  
 
    
     <div class="flex-row d-lg-flex d-none bg-success">
@@ -329,7 +325,7 @@
       <a class="d-md-flex d-none text-left text-secondary text-decoration-none" href="#">Link 3</a>
     </div>
     </div>
-     </div>   
+     
           
 
           
@@ -347,9 +343,9 @@
             </div>
             <div class=" d-none d-md-block float-right text-dark" >©  Tumo Center for Creative Technologies</div>  
           </div>
-  </div>
 </div>
-  </div>
+</div>
+</div>
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
@@ -408,9 +404,6 @@
       </div>
     </div>
 
-
-
-
 <!-- - Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -418,4 +411,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>
-    
