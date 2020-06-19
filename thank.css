@@ -1,16 +1,15 @@
 
 .lego
 {
-	font-family: consolas;
+	text-shadow:2px 2px #000;
 	color:#39ff14;
-	font-size:50px;
+	font-size:35px;
 	text-decoration:none;
 	transition:0.5s;
     letter-spacing:4px;
 	color:#39ff14;
 	text-transform:uppercase;
 	-webkit-box-reflect:below 5px linear-gradient(transparent,#0107084a);
-	text-decoration:none;
 	background: #333;
 }
 .lego:hover{
@@ -22,3 +21,14 @@
 	          0 0 50px #39ff14,
 	          0 0 200px #39ff14
 	      }
+	      .bego
+{
+	text-shadow:2px 2px #000;
+	color:#39ff14;
+	text-decoration:none;
+	transition:0.5s;
+    letter-spacing:4px;
+	color:#39ff14;
+	text-transform:uppercase;
+	-webkit-box-reflect:below 5px linear-gradient(transparent,#0107084a);
+}
