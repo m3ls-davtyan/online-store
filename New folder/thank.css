@@ -1,0 +1,24 @@
+
+.lego
+{
+	font-family: consolas;
+	color:#39ff14;
+	font-size:50px;
+	text-decoration:none;
+	transition:0.5s;
+    letter-spacing:4px;
+	color:#39ff14;
+	text-transform:uppercase;
+	-webkit-box-reflect:below 5px linear-gradient(transparent,#0107084a);
+	text-decoration:none;
+	background: #333;
+}
+.lego:hover{
+	text-decoration:none;
+	background-color:#39ff14;
+	color:#050801;
+	box-shadow:0 0 5px #39ff14,
+	          0 0 25px #39ff14,
+	          0 0 50px #39ff14,
+	          0 0 200px #39ff14
+	      }
